@@ -12,7 +12,7 @@ app.use('/views', express.static(__dirname + '/' + 'public/views'));
 app.use('/images', express.static(__dirname + '/' + 'public/images'));
 app.use('/styles', express.static(__dirname + '/' + 'public/styles'));
 app.use('/javascripts', express.static(__dirname + '/' + 'public/javascripts'));
-app.use('/home', homeRouter)
+app.use('/', homeRouter)
 app.use('/menu', menuRouter)
 app.use('/todo', todoRouter)
 app.use('/slider', sliderRouter)
