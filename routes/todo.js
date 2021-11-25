@@ -1,5 +1,5 @@
 const express = require('express')
-const { dirname } = require('path/posix')
+const { dirname } = require('path')
 const router = express.Router()
 const path = require('path')
 
