@@ -1,0 +1,30 @@
+body {
+    height:150vh;
+    background-image:url('https://i.ibb.co/NLyZHbz/clouds.jpg');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+p {
+    color:orangered;
+    font-size:1.5em;
+}
+
+div.show {
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    row-gap:3%;
+}
+
+div.show div {
+    display:flex;
+    flex-direction:column;
+    height:15%;
+    background-color:rgba(255,255,255,0.2)
+}
+div.show div img {
+    width: 13%;
+    height: auto;
+}

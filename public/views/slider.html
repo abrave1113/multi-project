@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Security-Policy"  content="default-src *  data: blob: filesystem: about: ws: wss: 'unsafe-inline' 'unsafe-eval';script-src * 'unsafe-inline' 'unsafe-eval';connect-src * 'unsafe-inline';img-src * data: blob: 'unsafe-inline';frame-src *;style-src * data: blob: 'unsafe-inline';font-src * data: blob: 'unsafe-inline';" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slider</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="../styles/slider-styles.css" />
+  </head>
+  <body>
+    <div class="slider-container">
+      <div class="slide">
+        <img src="https://i.ibb.co/HXkRWtC/img-1.jpg" class="slide-img" alt="" />
+        <h1>1</h1>
+      </div>
+      <div class="slide">
+        <h1>2</h1>
+      </div>
+      <div class="slide">
+        <img src="https://i.ibb.co/ZV40xT3/img-2.jpg" class="slide-img" alt="" />     
+        <h1>3</h1>
+      </div>
+      <div class="slide">
+        <div>
+          <img src="https://i.ibb.co/VjDMSxR/person-1.jpg" class="person-img" alt="" />
+          <h4>susan doe</h4>
+          <h1>4</h1>
+        </div>
+      </div>
+    </div>
+    <div class="btn-container">
+      <button type="button" class="prevBtn">
+        prev
+      </button>
+      <button type="button" class="nextBtn">
+        next
+      </button>
+    </div>
+
+    <!-- javascript -->
+    <script src="../javascripts/slider-app.js"></script>
+  </body>
+</html>
