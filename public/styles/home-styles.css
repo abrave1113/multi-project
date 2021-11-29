@@ -15,7 +15,7 @@ div.show {
     height:100%;
     display:flex;
     flex-direction:column;
-    row-gap:2%;
+    row-gap:3%;
 }
 
 div.show div {
