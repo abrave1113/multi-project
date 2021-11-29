@@ -15,13 +15,13 @@ div.show {
     height:100%;
     display:flex;
     flex-direction:column;
-    row-gap:3%;
+    row-gap:2%;
 }
 
 div.show div {
     display:flex;
     flex-direction:column;
-    height:15%;
+    height:14%;
     background-color:rgba(255,255,255,0.2)
 }
 div.show div img {
