@@ -35,5 +35,6 @@ div.outer {
 }
 
 p.text-inner {
-    color: red;
+    color: blue;
+    font-size:1.5em;
 }
