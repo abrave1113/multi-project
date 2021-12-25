@@ -22,10 +22,17 @@ div.show div {
     display:flex;
     flex-direction:column;
     height:14%;
-    background-color:rgba(255,255,255,0.2)
+    background-color:rgba(255,255,255,0.2);
 }
 div.show div:last-child {
-    background-color:rgba(255,255,255,0.5)
+    position: relative;
+    background-color:rgba(255,255,255,0.5);
+}
+div.show div:last-child p{
+    position: absolute;
+    left: 50%;
+    background-color:rgba(255,255,255,0.5);
+    transform: translate(-50%, 0%);    
 }
 div.show div img {
     width: 13%;
