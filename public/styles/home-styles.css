@@ -31,6 +31,7 @@ div.show div:last-child {
 div.show div:last-child p.last-child.text-inner{
     position: absolute;
     left: 50%;
+    top:20%;
     content:'Database down temporarily.';
     color: blue;
     font-size:2em;
