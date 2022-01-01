@@ -28,9 +28,13 @@ div.show div:last-child {
     position: relative;
     background-color:rgba(255,255,255,0.5);
 }
-div.show div:last-child p.text-inner{
+div.show div:last-child p.last-child.text-inner{
     position: absolute;
     left: 50%;
+    content:'Database down temporarily.';
+    color: blue;
+    font-size:2em;
+    z-index: 1;
     background-color:rgba(255,255,255,0.5);
     transform: translate(-50%, 0%);    
 }
