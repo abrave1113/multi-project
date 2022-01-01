@@ -45,6 +45,7 @@ div.outer {
 }
 
 p.text-inner {
+    content:'Database down temporarily.';
     color: blue;
     font-size:2em;
 }
