@@ -26,7 +26,7 @@ div.show div {
 }
 div.show div:last-child {
     position: relative;
-    background-color:rgba(255,255,255,0.5);
+    /* background-color:rgba(255,255,255,0.5); */
 }
 div.show div:last-child p.last-child.text-inner{
     position: absolute;
