@@ -44,14 +44,15 @@ div.show div img {
     height: auto;
 }
 
-div.outer {
+div.outer.div {
     display: block;
+    position: relative;
     background-color:rgba(255, 255, 255, 0.5);    
 }
 
-p.text-inner {
+/* p.text-inner {
     content:'Database down temporarily.';
     color: blue;
     font-size:2em;
     z-index: 1;
-}
+} */
